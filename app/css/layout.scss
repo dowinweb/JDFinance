@@ -1,0 +1,12 @@
+// @Author: dongwei
+// @Date:   2018-03-03 22:35:35
+// @Last modified by:   dongwei
+// @Last modified time: 2018-03-04 10:31:18
+
+@charset "UTF-8";
+
+@mixin flex($direction:column, $inline:block) {
+  display: if($inline==block, flex, inline-flex);
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}
