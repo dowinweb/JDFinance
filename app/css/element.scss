@@ -1,9 +1,9 @@
 // @Author: dongwei
 // @Date:   2018-03-03 22:35:46
 // @Last modified by:   dongwei
-// @Last modified time: 2018-03-04 10:30:54
+// @Last modified time: 2018-03-04 22:09:39
 
-@import './layout.scss'
+@import './layout.scss';
 
 @mixin btn($size:14px,$color:#fff,$bgcolor:#f04752,$padding:5px,$radius:5px) {
   padding: $padding;
